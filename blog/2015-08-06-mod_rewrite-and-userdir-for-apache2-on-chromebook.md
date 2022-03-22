@@ -13,7 +13,7 @@ tags:
   - apache
 
 ---
-I wanted to get mod\_rewrite to work, to get a nice looking url, even tho it is only development version here on my chromebook. (using crouton) While mod\_rewrite is [easy enough,](http://www.svennd.be/invalid-command-rewriteengine/" target="_blank) getting it to work on the mod_userdir was a bit more tricky.
+I wanted to get mod\_rewrite to work, to get a nice looking url, even tho it is only development version here on my chromebook. (using crouton) While mod\_rewrite is [easy enough,](http://www.svennd.be/invalid-command-rewriteengine/) getting it to work on the mod_userdir was a bit more tricky.
 
 Getting mod_rewrite activated is easy :
 
@@ -36,7 +36,7 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule .* index.php/$0 [PT,L]</pre>
 
-This won't work, cause the "variable" RewriteBase is not given and the default / will send you to the /var/www (default) where nothing is, resulting in a 404 (unless something is there, -unlikely-)  Fixing it, is a simple as setting your base path. Note that for me, the files where not in the root of my home directory ( /home/svenn/Downloads/my\_project\_dir/)  for those setting see  [this post](http://www.svennd.be/lamp-crouton-chromeos/" target="_blank).
+This won't work, cause the "variable" RewriteBase is not given and the default / will send you to the /var/www (default) where nothing is, resulting in a 404 (unless something is there, -unlikely-)  Fixing it, is a simple as setting your base path. Note that for me, the files where not in the root of my home directory ( /home/svenn/Downloads/my\_project\_dir/)  for those setting see  [this post](http://www.svennd.be/lamp-crouton-chromeos/).
 
 &nbsp;
 
