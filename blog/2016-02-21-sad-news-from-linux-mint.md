@@ -106,5 +106,5 @@ The [original blogpost on Mint][5].
  [4]: http://blog.linuxmint.com/?p=3001
  [5]: http://blog.linuxmint.com/?p=2994
  [6]: http://www.winmd5.com
- [7]: http://ftp.belnet.be/linuxmint.com/iso/stable/17.3/
+ [7]: http://ftp.belnet.be/
  [8]: http://www.mathstat.dal.ca/~selinger/md5collision/
