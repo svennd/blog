@@ -38,5 +38,5 @@ Don't forget to reload rsyslog first. (restart would also work)
 
 pretty sure there are cleaner ways to do it, but this works. Hooray for small easy hacks!
 
- [1]: http://www.rsyslog.com/guides-for-rsyslog/
+ [1]: https://www.rsyslog.com/guides/
  [2]: https://www.svennd.be/setup-central-syslog-server-on-centos-7/
