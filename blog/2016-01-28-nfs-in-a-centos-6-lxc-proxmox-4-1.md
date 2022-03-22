@@ -72,4 +72,4 @@ and a soft mount from the client (non lxc in this test)
 So not 100% its save, but its working 🙂
 
  [1]: https://www.svennd.be/bye-openvz-hey-lxc/
- [2]: https://openvz.org/NFS_server_inside_container#nfsd_module
+ [2]: https://wiki.openvz.org/NFS_server_inside_container#nfsd_module
