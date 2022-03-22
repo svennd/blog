@@ -141,5 +141,5 @@ Thats it, so simple, why did I not find this faster ? Good luck with the logging
 
 Some more resources :
 
-  * [Rsyslog official website](http://www.rsyslog.com/" target="_blank)
-  * [Gentoo support wiki on Rsyslog](https://wiki.gentoo.org/wiki/Rsyslog" target="_blank)
+  * [Rsyslog official website](http://www.rsyslog.com/)
+  * [Gentoo support wiki on Rsyslog](https://wiki.gentoo.org/wiki/Rsyslog)
