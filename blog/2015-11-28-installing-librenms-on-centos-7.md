@@ -10,7 +10,7 @@ categories:
   - SysAdmin
 
 ---
-This is a simple manual to install [LibreNMS](http://www.librenms.org" target="_blank), a network monitoring system, on a clean Centos 7.1 . I'm a huge fan of this so I think its important to expand information on this. [Recently](https://github.com/librenms/librenms/pull/2471" target="_blank) I have have tried to update the docs of Centos/RHEL, I'm not sure if they will be accepted as I'm rather new to this project and while I want to give back, I'm not that good with giving neutral documentation 🙂 Below I wrote a quick start, some options I left out, just cause you wane be monitoring rather sooner then later. For more support you could always look in the [LibreNMS docs][1].
+This is a simple manual to install [LibreNMS](http://www.librenms.org), a network monitoring system, on a clean Centos 7.1 . I'm a huge fan of this so I think its important to expand information on this. [Recently](https://github.com/librenms/librenms/pull/2471) I have have tried to update the docs of Centos/RHEL, I'm not sure if they will be accepted as I'm rather new to this project and while I want to give back, I'm not that good with giving neutral documentation 🙂 Below I wrote a quick start, some options I left out, just cause you wane be monitoring rather sooner then later. For more support you could always look in the [LibreNMS docs][1].
 
 **Installation**
 
