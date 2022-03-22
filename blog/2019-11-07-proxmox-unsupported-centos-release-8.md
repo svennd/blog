@@ -24,7 +24,7 @@ I tried update & upgrade :
 
 <pre>apt-get update && apt-get dist-upgrade</pre>
 
-To no avail; Luckely [Geekshack SecLabs][1] and his sed wizardry provided a workaround :
+To no avail; Luckely Geekshack SecLabs (dead link) and his sed wizardry provided a workaround :
 
 <pre>sed -i 's/ &lt; 8) {/ &lt; 9) {/' /usr/share/perl5/PVE/LXC/Setup/CentOS.pm</pre>
 
@@ -39,7 +39,3 @@ Total bytes read: 673566720 (643MiB, 38MiB/s)
 Detected container architecture: amd64
 [-cut-]
 TASK OK</pre>
-
-&nbsp;
-
- [1]: https://seclabs.timjacobs.org/?p=545
