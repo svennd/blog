@@ -151,7 +151,7 @@ Next we will add our first client and create a job for it to run on regular base
 [Continue reading][7]
 
  [1]: https://www.retrospect.com
- [2]: https://fosdem.org/2017/search/?q=bareos
+ [2]: https://fosdem.org/2022/archives/
  [3]: https://www.bareos.org/en/manual.html
  [4]: https://docs.bareos.org/
  [5]: https://download.bareos.org/bareos/release/
