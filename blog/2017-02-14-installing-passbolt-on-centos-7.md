@@ -1,4 +1,4 @@
----
+ ---
 title: Installing passbolt on Centos 7
 author: svennd
 
@@ -45,7 +45,7 @@ Now we need to update yum & install it.
 <pre>yum update
 yum install nginx</pre>
 
-Then configure your certificate using Let's Encrypt, I used my own guide with [_dehydrated_ and _Cloudflare_][6], in case you don't use C_loudflare_, you could use [this guide][7] or one of the other [installation methods][8] I have written in the past. Whatever method you chose, be sure to end up with a valid _Nginx_ configuration that has https on and uses this by default. ([demo config][9])
+Then configure your certificate using Let's Encrypt, I used my own guide with [_dehydrated_ and _Cloudflare_][6], in case you don't use C_loudflare_, you could use [this guide][7] or one of the other installation methods (dead link) I have written in the past. Whatever method you chose, be sure to end up with a valid _Nginx_ configuration that has https on and uses this by default. ([demo config][9])
 
 ### Setup MariaDB
 
@@ -534,7 +534,6 @@ Path: /var/www/html/tetra/passbolt/app/
 And that's it folks !
 
   * [installing passbolt on FreeBSD][10]
-  * [Install using asciinema on Centos 7.3][11]
 
  [1]: https://medium.com/passbolt/passbolt-on-centos-7-with-nginx-php7-fpm-mariadb-from-scratch-7b2a9b15f3a4
  [2]: https://fosdem.org/2017/
@@ -543,7 +542,5 @@ And that's it folks !
  [5]: http://nginx.org/en/linux_packages.html
  [6]: https://www.svennd.be/dehydrated-using-cloudflare-hook/
  [7]: https://www.svennd.be/lets-encrypt-on-any-linux-distro/
- [8]: https://www.svennd.be/lets-encrypt-article-overview/
  [9]: https://www.svennd.be/lets-encrypt-config-for-nginx-1-8-0/
  [10]: https://www.patpro.net/blog/index.php/2016/09/22/3037-self-hosted-password-manager-installing-passbolt-on-freebsd/
- [11]: https://www.svennd.be/passbolt-asciinema-install/
