@@ -120,7 +120,7 @@ There are allot of other zfs "auto" snapshot systems out there, a short list can
 
  [1]: http://zfsonlinux.org
  [2]: https://github.com/zfsonlinux/zfs-auto-snapshot
- [3]: https://blog.briankoopman.com/zfs-automated-snapshots/
+ [3]: https://briankoopman.com/zfs-automated-snapshots/
  [4]: https://github.com/jimsalterjrs/sanoid
  [5]: http://www.openoid.net/products/
  [6]: http://wiki.complete.org/ZFSAutoSnapshots
