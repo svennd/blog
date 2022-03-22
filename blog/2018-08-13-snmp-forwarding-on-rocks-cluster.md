@@ -82,7 +82,7 @@ _note : 10.1.1.1 is the private VLAN ip of the head-node._
 
 Bam! _LibreNMS_ can talk to the node using the public IP of the head-node on port 3161 and to the head-node on port 161. One issue that remains unsolved is on reboot, this setup is lost. _Rocks_ by default will reinstall nodes that reboot. This can be resolved by adapting the configurations on _Rocks _and rebuild the distribution _(rocks create distro)._ However this is rather advanced and (IMHO) difficult to debug. So I did not use that system for this project. Another problem is that its rather work-intense to add all the configuration to all the nodes. (this is only for a single node) This can be resolved most easily using scripts and using _rocks run host_ to execute bits on all the nodes. I decided that I only want one node to be polled as a sample. I already track [opengridscheduler][4] using an extend on the head-node. So this is mostly for debugging. Good luck !
 
- [1]: http://rocksclusters.org
+ [1]: http://www.rocksclusters.org
  [2]: http://ganglia.info
  [3]: https://librenms.org
  [4]: https://docs.librenms.org/#Extensions/Applications/#opengridscheduler
