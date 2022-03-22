@@ -13,9 +13,9 @@ tags:
   - update
 
 ---
-Handy toolboxes such as [SAMtools](http://samtools.sourceforge.net" target="_blank" rel="noopener noreferrer) are getting updated, most of the time they become more useful every iteration. As sysadmin ad hoc, researchers expect to use the meanest, leanest and most cutting edge tools to do there research (unlike you're overpriced [<em>Eye</em>phone](http://futurama.wikia.com/wiki/EyePhone" target="_blank" rel="noopener noreferrer)). However some people rely on -now- deprecated commands in "automated" scripts. Rewriting those scripts is hard (as in allot of work), learning people to read man pages/_-help_ is close to rocket science. So most of the time we end up not updating those much used tools  (or would we be just lazy?). So I came up with this method to have multiple versions installed at the same time, it is probably not the best way. But like this bad boy proves, if it fits, it sits.
+Handy toolboxes such as [SAMtools](http://samtools.sourceforge.net) are getting updated, most of the time they become more useful every iteration. As sysadmin ad hoc, researchers expect to use the meanest, leanest and most cutting edge tools to do there research (unlike you're overpriced [<em>Eye</em>phone](http://futurama.wikia.com/wiki/EyePhone)). However some people rely on -now- deprecated commands in "automated" scripts. Rewriting those scripts is hard (as in allot of work), learning people to read man pages/_-help_ is close to rocket science. So most of the time we end up not updating those much used tools  (or would we be just lazy?). So I came up with this method to have multiple versions installed at the same time, it is probably not the best way. But like this bad boy proves, if it fits, it sits.
 
-<img loading="lazy" class="alignnone wp-image-932 size-full" src="/img//2015/07/29731904-1.jpg" width="150" height="150" srcset="/img/2015/07/29731904-1.jpg 150w, /img/2015/07/29731904-1-1x1.jpg 1w" sizes="(max-width: 150px) 100vw, 150px" /> 
+<img src="/img//2015/07/29731904-1.jpg" /> 
 
 <!--more-->\# first we install the tool (this is different for every tool)
 
