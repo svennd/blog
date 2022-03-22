@@ -98,7 +98,7 @@ This happens when you have played to much with them 😀 The solution is simple 
 
 <pre>Command "/root/.local/share/letsencrypt/bin/python2.7 -c "import setuptools, tokenize;__file__='/tmp/pip-build-cAuqmP/cryptography/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-rhCaoe-record/install-record.txt --single-version-externally-managed --compile --install-headers /root/.local/share/letsencrypt/include/site/python2.7/cryptography" failed with error code 1 in /tmp/pip-build-cAuqmP/cryptography</pre>
 
-This happened due to limited resources during cryptokey generation. The solution was to create more free memory, although one should never go straight to production server without testing SSL first. [Stopping the memory hog would help][3].
+This happened due to limited resources during cryptokey generation. The solution was to create more free memory, although one should never go straight to production server without testing SSL first.
 
 **Errno 22**
 
@@ -192,7 +192,7 @@ Then my WordPress took both https and http. Next part is probably only for WP ow
 
 **Getting WordPress to play nice with Lets-encrypt ssl**
 
-Adapting WordPress itself is rather easy, in wp-admin -> Settings -> General -> change WP address and site address to both https://domain.ext. After that, I noticed most of my images where broken due to using http:// (note : you would get mixed error, I already adapted my .htaccess) You could change that using MySQL query ([source][5]):
+Adapting WordPress itself is rather easy, in wp-admin -> Settings -> General -> change WP address and site address to both https:// domain.ext. After that, I noticed most of my images where broken due to using http:// (note : you would get mixed error, I already adapted my .htaccess) You could change that using MySQL query ([source][5]):
 
 <pre class="EnlighterJSRAW" data-enlighter-language="shell" data-enlighter-linenumbers="false">UPDATE wp_posts
 SET post_content = ( Replace (post_content, 'src="http://', 'src="//') )
@@ -266,7 +266,6 @@ Encrypted a tiny part of the web !
 
  [1]: https://www.svennd.be/lets-encrypt-on-any-linux-distro/
  [2]: https://www.svennd.be/lets-encrypt-with-centos-6-7/
- [3]: https://digitz.org/blog/lets-encrypt-ssl-centos-7-setup/
  [4]: https://www.svennd.be/oserror-errno-22-invalid-argument-etcletsencryptlivecert-pem-letsencrypt/
  [5]: https://css-tricks.com/moving-to-https-on-wordpress/
  [6]: http://htaccess.madewithlove.be
