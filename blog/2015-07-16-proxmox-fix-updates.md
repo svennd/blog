@@ -14,7 +14,7 @@ tags:
   - updates
 
 ---
-I love [proxmox](https://www.proxmox.com/en/" target="_blank" rel="noopener), its cool it works and its very user friendly. The only pain point is, they try to sell their  subscription really hard. In such an attempt they even change the default update location to something that will throw an error when not having a subscription!
+I love [proxmox](https://www.proxmox.com/en/), its cool it works and its very user friendly. The only pain point is, they try to sell their  subscription really hard. In such an attempt they even change the default update location to something that will throw an error when not having a subscription!
 
 <pre>Err https://enterprise.proxmox.com jessie/pve-enterprise amd64 Packages
   HttpError401
