@@ -160,4 +160,4 @@ That's it ! Fully configured certificate renewal process 🙂
  [1]: https://letsencrypt.org/docs/client-options/
  [2]: https://github.com/lukas2511/dehydrated
  [3]: http://kappataumu.com
- [4]: https://www.cloudflare.com/a/account/my-account
+ [4]: https://dash.cloudflare.com/login
