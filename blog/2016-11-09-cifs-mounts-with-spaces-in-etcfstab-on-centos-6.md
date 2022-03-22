@@ -26,4 +26,4 @@ Happy mounting Windows shares 🙂
 
 &nbsp;
 
- [1]: https://courses.engr.illinois.edu/ece390/books/labmanual/ascii-code-table.html
+ [1]: https://www.ascii-code.com/
