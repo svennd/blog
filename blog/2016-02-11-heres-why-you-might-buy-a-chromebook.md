@@ -18,7 +18,7 @@ I read an article on dealsnews (its gone) about why you should not buy a Chrome
 
 > The latest Chromebook is Cheap, but low-performing
 
-They are cheap alright, I can buy [locally from 250 euro][3], if I search online I can go as low as [150 dollar][4]. That is clearly a win right ? But low-performing, well, I felt pretty much the other way around, when I first started using Chrome OS, I had the feeling the OS was waiting for me, rather then the other way around.
+They are cheap alright, I can buy [locally from 250 euro][3], if I search online I can go as low as 150 dollar. That is clearly a win right ? But low-performing, well, I felt pretty much the other way around, when I first started using Chrome OS, I had the feeling the OS was waiting for me, rather then the other way around.
 
 I work close to informatics and when I say I use allot of tabs, its rather relative (they have open 50+ tabs), the reference CNET article about [Lenovo IdeaPad 100s][5] shows as low as 8 tabs open and already the machine is lagging. This is not in line what with most Chrome OS users see, I normally have open around 10-15 tabs, including _spotify, gmail, facebook_ and some other sites that require les resources compared to those, however no matter what use case, I never noticed lag... I can't find any way to create lag on this machine...  and this machine "only" has 2GB/Intel Celeron 2955U. Now I'm not sure how that [compares to the N2840][6] reviewed there, but sure we aren't shooting at windows 10 cause it runs slow on that xp machine you had 10 years back ? From what I can see the Lenovo ideapad 100s Chromebook is definitely on the low-end spectrum, but then again, not everyone needs 50 tabs open.
 
@@ -29,8 +29,7 @@ The point is also made that without WIFI not much is to do, I always counter th
 
 Now about the price, always reviewers compare against low-end windows machines, I wonder why. Did people ever compare smartphones against computers ? Since when did we start caring about how much stuff costs ? Or do you mean to tell me you REALLY need that 500$ phone ?
 
-**Let's attack Chrome OS  
-**
+**Let's attack Chrome OS **
 
 > For the same price you could get a full operating system
 
@@ -57,6 +56,5 @@ I am off course biased, I own a Chromebook, this reviewer never seen a Chromeboo
  [1]: https://www.youtube.com/watch?v=_wAgB5J1gSQ
  [2]: https://www.youtube.com/watch?v=-y2mqoDjQXI
  [3]: http://tweakers.net/categorie/496/laptops/producten/#filter:JYoxCoAwEAT_snUExahwDxAsrCzFQvSQk6AhEQtD_m7EaphhAk63smuFzQqCdbJ7qD8Olpcu1axQsPPGgzwMKvJcfd_CvRygJD59rZiLnQcFlFrXH-_ZgEZUumwwxRhf
- [4]: http://www.amazon.com/gp/product/B00V3DYVLM/ref=s9_al_bw_g147_i2/187-7250299-2353501?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-3&pf_rd_r=1FFFHMXSH2JXPY8N3D4K&pf_rd_t=101&pf_rd_p=2299594102&pf_rd_i=2858603011
  [5]: http://www.cnet.com/products/lenovo-ideapad-100s-chromebook/
  [6]: http://cpuboss.com/cpus/Intel-Celeron-N2840-vs-Intel-Celeron-2955U
