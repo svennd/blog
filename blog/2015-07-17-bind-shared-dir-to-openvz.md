@@ -35,6 +35,6 @@ mount -n --bind /data/groups ${VE_ROOT}/media/groups
 [bind mounts in openvz man][2]  
 [topic question @ openvz][3]
 
- [1]: http://serverfault.com/questions/241966/openvz-share-a-folder-between-containers
- [2]: http://wiki.openvz.org/Bind_mounts
- [3]: http://forum.openvz.org/index.php?t=msg&goto=42129&
+ [1]: https://serverfault.com/questions/241966/openvz-share-a-folder-between-containers
+ [2]: https://wiki.openvz.org/Bind_mounts
+ [3]: https://forum.openvz.org/index.php?t=msg&goto=42129&
