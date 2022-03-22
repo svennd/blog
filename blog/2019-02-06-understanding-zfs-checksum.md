@@ -16,7 +16,7 @@ tags:
 ---
 Ever wondered what kind of checksum ZFS uses to check for bit rot ? Probably not, but it turns out you can change the used algorithm. However like most settings, the defaults are chosen by smart people. So changing it might not be doing you any favors.
 
-As it turns out, the default checksum used is [Fletcher's checksum][1];This algorithm is comparable to [CRC][2] error detection, but outperforms it by nearly 20 times per byte ([source][3]). So it looks as if this is really speedy.
+As it turns out, the default checksum used is [Fletcher's checksum][1];This algorithm is comparable to [CRC][2] error detection, but outperforms it by nearly 20 times per byte. So it looks as if this is really speedy.
 
 This algorithm can actually use some of the more modern Intel CPU optimizations. ([source][4]) To check if your CPU has these optimizations, check your CPU flags, on most distro's this can be done using :
 
@@ -69,7 +69,6 @@ As always, relevant information, and basically the source of this post can be fo
 
  [1]: https://en.wikipedia.org/wiki/Fletcher%27s_checksum
  [2]: https://en.wikipedia.org/wiki/Cyclic_redundancy_check
- [3]: http://collaboration.cmc.ec.gc.ca/science/rpn/biblio/ddj/Website/articles/DDJ/1992/9205/9205b/9205b.htm
  [4]: https://software.intel.com/en-us/articles/fast-computation-of-fletcher-checksums
  [5]: https://ark.intel.com/products/123547/Intel-Xeon-Silver-4110-Processor-11M-Cache-2-10-GHz-
  [6]: https://ark.intel.com/products/32430/Intel-Pentium-Processor-E2220-1M-Cache-2-40-GHz-800-MHz-FSB-
