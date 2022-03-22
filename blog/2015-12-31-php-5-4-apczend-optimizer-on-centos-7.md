@@ -10,7 +10,7 @@ categories:
   - SysAdmin
 
 ---
-The interwebs is a bit unclear on this topic, but on a "clean" Centos 7.1 (tested on digitalocean) the PHP version is v5.4 , which is a bit of a bugger, since from v5.5 [Zend Optimizer+][1] is included in the core of PHP, making PHP allot faster, about 70% faster for sure, [if we can believe the benchmarks][2]. I need APC not for the user cache but for the in memory storage of compiled PHP bytecode. So both Zend Optimizer+ or APC would do fine. Since Zend Optimizer is included in the PHP core of newer versions, Centos will someday push this (in the not so near future I guess). So I would recommend to use Zend Optimizer+, but feel free to ignore that advice, I am no expert. I will test both and decide then. Thought I doubt I will find much difference.
+The interwebs is a bit unclear on this topic, but on a "clean" Centos 7.1 (tested on digitalocean) the PHP version is v5.4 , which is a bit of a bugger, since from v5.5 [Zend Optimizer+][1] is included in the core of PHP, making PHP allot faster, about 70% faster for sure, if we can believe the benchmarks (gone). I need APC not for the user cache but for the in memory storage of compiled PHP bytecode. So both Zend Optimizer+ or APC would do fine. Since Zend Optimizer is included in the PHP core of newer versions, Centos will someday push this (in the not so near future I guess). So I would recommend to use Zend Optimizer+, but feel free to ignore that advice, I am no expert. I will test both and decide then. Thought I doubt I will find much difference.
 
 **APC**
 
@@ -45,8 +45,7 @@ There is no "official" statics script for Zend Opcache I could find, but a [user
 You can also ditch PHP v5.4 from Centos repo's and add another repo, such as [webtastic repo][5] or [remirepo][6].
 
  [1]: https://wiki.php.net/rfc/optimizerplus
- [2]: https://docs.google.com/spreadsheets/d/1SywM4I91Cf4gyRniPlc7LML7Tc5ikZjzEjYUt04z_mY/edit#gid=0
- [3]: http://git.php.net/?p=pecl/caching/apc.git;a=blob_plain;f=apc.php;hb=HEAD
+ [3]: https://github.com/krakjoe/apcu/blob/master/apc.php
  [4]: https://github.com/rlerdorf/opcache-status
  [5]: https://webtatic.com
  [6]: http://blog.remirepo.net/
