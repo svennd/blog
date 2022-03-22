@@ -108,7 +108,7 @@ Typelog : "ls /dat", tab, arrow up, som, tab arrow up, wit tab arrow up, som tab
 
 some nice sources / examples of history :
 
-  * [Keeping separate history logs][5] (tip!)
+  * [Keeping separate history logs][5]
   * [The original finder of these bash vars ?][6]
   * [15 examples to work with bash][7]
 
@@ -116,6 +116,6 @@ some nice sources / examples of history :
  [2]: https://www.gnu.org/software/bash/manual/html_node/Bash-Variables.html
  [3]: http://php.net/manual/en/function.strftime.php
  [4]: http://ss64.com/bash/shopt.html
- [5]: http://moonpup.blogspot.be/2007/11/keeping-separate-history-files-for.html
+ [5]: https://linuxcommando.blogspot.com/2007/11/keeping-command-history-across-multiple.html
  [6]: http://blog.macromates.com/2008/working-with-history-in-bash/
  [7]: http://www.thegeekstuff.com/2008/08/15-examples-to-master-linux-command-line-history/
