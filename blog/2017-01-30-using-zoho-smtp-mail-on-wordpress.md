@@ -10,7 +10,7 @@ categories:
   - webdev
 
 ---
-After three hours reading up on <span id="12" class="osc_tag_system osc_error_blue">configuring</span> postfix/dovecot/... I finally thrown in the towel. There are some resources on the interwebs on how to setup a clean postfix on Centos/Linux, but they are<img loading="lazy" class="wp-image-1378 size-medium alignright" src="/img/2017/01/zoho-download-300x110.png" width="300" height="110" srcset="/img/2017/01/zoho-download-300x110.png 300w, /img/2017/01/zoho-download.png 520w" sizes="(max-width: 300px) 100vw, 300px" /> dated or they [just throw in a configuration][1] file without explanation, and while I eventually got postfix mail to work. Sending a mail was slow (load time, no idea why) and gmail/google showed the mail being from _root@**linux\_host\_name**.svennd.be _which I did not like, since I wanted it to come from _no-reply@svennd.be_. On top of that, google put it in the spam directory, even after I put a valid SPF record. (for some reason this also wasn't accepted)
+After three hours reading up on <span id="12" class="osc_tag_system osc_error_blue">configuring</span> postfix/dovecot/... I finally thrown in the towel. There are some resources on the interwebs on how to setup a clean postfix on Centos/Linux, but they are<img src="/img/2017/01/zoho-download-300x110.png" /> dated or they [just throw in a configuration][1] file without explanation, and while I eventually got postfix mail to work. Sending a mail was slow (load time, no idea why) and gmail/google showed the mail being from _root@**linux\_host\_name**.svennd.be _which I did not like, since I wanted it to come from _no-reply@svennd.be_. On top of that, google put it in the spam directory, even after I put a valid SPF record. (for some reason this also wasn't accepted)
 
 &nbsp;
 
@@ -60,7 +60,7 @@ I used these settings :  The SMTP username and password, are in fact an account
 
 And that's it. Of course you should test, by creating a test mail.  If you don't wane login to the zoho mail, you can also forward the mail to a existing mail address. This can be done here : mail settings -> access old version for -> email forwarding and POP/IMAP.
 
-https://mail.zoho.com/mail/zmset.do#12 (after login)
+https://mail.zoho.com (after login)
 
 ### Testing : mail-tester.com
 
