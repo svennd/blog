@@ -74,8 +74,6 @@ What is more important, is the fact that Error state will survive a reboot. So w
 
 <pre>qmod -c '*'</pre>
 
-[source][1]
-
 ##### Disabled state : d
 
 _d _means the node has been disabled, this normally should not happen automatically. We can disable a node from getting anymore jobs, but the running jobs will continue to run.
@@ -103,8 +101,6 @@ root@server.local changed state of "all.q@compute-0-5.local" (enabled)
 
 The state _au_, _u_ means unreachable this happens when _sge_execd _on the node does not respond to the _sge_qmaster_ on the headnode_ _within a configured timeout window. The a state is alarm, this will happen when the node does not report the load, in which case a load of 99.99 is assumed. This results in the scheduler to not assign more work to the node. The _au_ state can happen when a NFS server is being hammered and the complete node is waiting for the "slow" network disk.  (when hard mounted nfs) This state can resolve itself if the problem gets resolved.
 
-[source][2]
-
 <pre>[root@server ~]# qstat -f
 queuename                      qtype resv/used/tot. load_avg arch          states
 ---------------------------------------------------------------------------------
@@ -125,8 +121,4 @@ all.q@compute-0-7.local        BIP   0/0/24         -NA-     linux-x64     adu
 
 Useful link :
 
-  * [Grid Engine Troubleshooting (pdf)][3]
-
- [1]: http://idolinux.blogspot.be/2009/03/grid-engine-e-error-state.html
- [2]: https://lists.sdsc.edu/pipermail/npaci-rocks-discussion/2011-March/051588.html
- [3]: http://bioteam.net/img/2009/09/07-SGE-6-Admin-Troubleshooting.pdf
+  * Grid Engine Troubleshooting (pdf) (dead :( )
