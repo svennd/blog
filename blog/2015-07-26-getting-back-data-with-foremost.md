@@ -20,17 +20,17 @@ Before you continue, read this warning : (its _red_ so its important)
 
 <span style="color: #ff0000;">When something unexpected happened (disk broke, no backup, raid6 broke, ....), and your backup is not there, stop when you care about the data. You are not a data recovery expert, neither am I, tell your boss/mom/girlfriend/... and hope (s)he doesn't blame you. Then call a data recovery service. Don't try this if you care for the data. Unless its a CD of <em>Justin Bieber</em>, then just go ahead.</span>
 
-[Foremost](http://foremost.sourceforge.net/" target="_blank), is a console recovery tool that will try to find your files using the known patterns. For example, most files start off (header) with telling what they are, that is useful for the programs trying to read them.
+[Foremost](http://foremost.sourceforge.net/), is a console recovery tool that will try to find your files using the known patterns. For example, most files start off (header) with telling what they are, that is useful for the programs trying to read them.
 
 
-  <img aria-describedby="caption-attachment-1064" loading="lazy" class="wp-image-1064 size-full" src="/img//2015/07/29732080-1.png" width="698" height="30" srcset="/img/2015/07/29732080-1.png 698w, /img/2015/07/29732080-1-300x13.png 300w, /img/2015/07/29732080-1-23x1.png 23w, /img/2015/07/29732080-1-670x30.png 670w" sizes="(max-width: 698px) 100vw, 698px" />
+  <img src="/img/2015/07/29732080-1.png" />
 
 
 Using this technique _Foremost_ will read the entire disk/partition you select and will report back these files when found. While this in theory sounds rather simple method, disks are fragmented, meaning that one file might be written over a way larger space then it really needs, as the disk was filled up multiple times.
 
 Running this tool, can be done on _images_ as such if your disk is broken, running a _dd_ first or even better _dd_rescue_ and then playing with the image file itself might be better. While I had backup of the most important files anyway, and the stick wasn't broken (I think) I just ran it straight from on the stick.
 
-<pre class="EnlighterJSRAW" data-enlighter-language="shell"># find the correct disk
+<pre># find the correct disk
 fdisk -l
 
 # start the foremost run
