@@ -154,6 +154,6 @@ Next we will add our first client and create a job for it to run on regular base
  [2]: https://fosdem.org/2017/search/?q=bareos
  [3]: https://www.bareos.org/en/manual.html
  [4]: https://docs.bareos.org/
- [5]: http://download.bareos.org/bareos/release/latest/CentOS_7/bareos.repo
+ [5]: https://download.bareos.org/bareos/release/
  [6]: /img/2017/03/bareos.png
  [7]: https://www.svennd.be/bareos-articles/
