@@ -109,7 +109,4 @@ Now concurrent jobs can run on these 4 devices 🙂
 
 &nbsp;
 
-more [Bareos articles][2].
-
  [1]: https://en.wikipedia.org/wiki/Linear_Tape-Open
- [2]: https://www.svennd.be/bareos-articles/
