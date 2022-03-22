@@ -68,5 +68,5 @@ One of the better man pages by the way! [Check man page here.][3]
 Bam that's it! Happy rotating !
 
  [1]: https://www.svennd.be/rsyslog-separate-file-for-logging/
- [2]: http://www.linuxcommand.org/man_pages/logrotate8.html
+ [2]: https://linux.die.net/man/8/logrotate
  [3]: http://linux.die.net/man/8/logrotate
