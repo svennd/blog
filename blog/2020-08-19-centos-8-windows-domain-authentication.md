@@ -14,27 +14,42 @@ How complex is joining a windows domain to authenticate on a Centos 8 server? ve
 
 This is a collection of debug attempts to get my Proxmox container, test Centos 8 server authenticate against a domain. For ssh access.
 
-&nbsp;
 
-**kinit**
+# kinit issues
 
 normal use :
 
-<pre>kinit user@domain</pre>
+```
+root@server:/home/svenn# kinit svennd@AD.DOMAIN.XYZ
+Password for svennd@AD.DOMAIN.XYZ: 
+(no output)
 
-**Error : Invalid UID in persistent keyring**
+root@server:/home/svenn# klist
+Ticket cache: FILE:/tmp/krb5cc_0
+Default principal: svennd@AD.DOMAIN.XYZ
+
+Valid starting       Expires              Service principal
+03/24/2022 13:59:46  03/24/2022 23:59:46  krbtgt/AD.DOMAIN.XYZ@AD.DOMAIN.XYZ
+        renew until 03/25/2022 13:59:44
+
+```
+
+
+
+## Invalid UID in persistent keyring
 
 <pre>kinit: Invalid UID in persistent keyring name while getting default ccache</pre>
 
-Solution : comment `# default_ccache_name = KEYRING:persistent:%{uid}` on  
-`/etc/krb5.conf`  
-by [brunowego][1]
+Solution : comment 
+```
+# default_ccache_name = KEYRING:persistent:%{uid}
+``` 
+in  `/etc/krb5.conf` by [brunowego][1]
 
 note : [this solution][2] from RedHat, is just a syntax error. (not a real solution)
 
-&nbsp;
 
-**kinit: KDC reply did not match expectations while getting initial credentials**
+## KDC reply did not match expectations while getting initial credentials
 
 This happened during test of kinit -v
 
@@ -45,9 +60,11 @@ Password for  svennd@ad.domain.com
 kinit: KDC reply did not match expectations while getting initial credentials
 </pre>
 
-The issue was here I had to use AD.DOMAIN.COM
+The issue was here I had to use **AD.DOMAIN.COM** 
 
-**kinit: Password incorrect while getting initial credentials**  
+[source](https://michlstechblog.info/blog/linux-kerberos-authentification-against-windows-active-directory)
+
+## Password incorrect while getting initial credentials
 wrong password during kinit -v user@domain.com
 
 <pre>klist
