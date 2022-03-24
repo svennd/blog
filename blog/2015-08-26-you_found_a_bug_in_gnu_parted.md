@@ -27,7 +27,7 @@ After a few attempts to compile I started collecting dependency's I did not have
 
 <pre class="EnlighterJSRAW" data-enlighter-linenumbers="false">sudo apt-get install uuid-dev libdevmapper-dev libncursesw5-dev libghc-readline-dev</pre>
 
-I originally took parted 3.0.0 since it had a .tar.gz extension, that I know how to uncompress (tar xvf file.tar.gz) the latest version was .tar.xz so I thought it was to much bother to find a method... ([tar xvgJ file.tar.xz][3]) so I got this result for my laziness : (#overly_honest)
+I originally took parted 3.0.0 since it had a .tar.gz extension, that I know how to uncompress (tar xvf file.tar.gz) the latest version was .tar.xz so I thought it was to much bother to find a method... (tar xvgJ file.tar.xz) so I got this result for my laziness : (#overly_honest)
 
 <pre class="EnlighterJSRAW" data-enlighter-linenumbers="false">CC       freading.lo
 In file included from freading.h:18:0,
@@ -45,4 +45,3 @@ Now on to the formatting of fat32 ! 🙂
 
  [1]: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=751406
  [2]: http://www.gnu.org/software/parted/
- [3]: http://stackoverflow.com/questions/12298368/how-to-extract-tar-xz-files-in-linux
