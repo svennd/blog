@@ -86,6 +86,4 @@ The command completed successfully.
 
 And after that I can browse and access the share through explorer. While this for sure is not foolproof, for my case its enough. (single client to server)
 
-[This register setting][1] in windows seems to be affecting this issue, thanks Dominik!
-
- [1]: https://getadmx.com/?Category=Windows_10_2016&Policy=Microsoft.Policies.LanmanWorkstation::Pol_EnableInsecureGuestLogons
+This register setting n windows seems to be affecting this issue, thanks Dominik!
