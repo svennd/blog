@@ -14,7 +14,8 @@ tags:
 ---
 Bareos uses _FileSets_ to decide what to backup and what not to backup. While the documentation is extensive, the approach is mostly include everything and exclude parts (include all, exclude after).  While this is the way average people want to backup. If you work around non-IT minded people, you know that they will store EVERYTHING, EVERYWHERE and mix downloadable data with self created data. So the "include all, exclude after" method would make backups explode in size, with allot of unnecessary data.
 
-So my idea is to exclude everything and include parts I know are relevant to backup. Inevitably this will make for allot exceptions to the rule, but with Bareos that is easier then including everything and finding a way to keep performance up. (exclude all, include some)
+So my idea is to exclude everything and include parts I know are relevant to backup. Inevitably this will make for allot exceptions to the rule, but with 
+that is easier then including everything and finding a way to keep performance up. (exclude all, include some)
 
 I want to have multiple small jobs that finish "quickly" on the client. Using this approach I can do multiple backups per day on specific data without generating an extreme load on client machines. The "backup everything" jobs can then be run on a lower frequency. As the frequently changed data is backed up already.
 
@@ -542,7 +543,3 @@ FileSet {
    
   }
 }</pre>
-
-More [Bareos][1] articles.
-
- [1]: https://www.svennd.be/bareos-articles/
