@@ -16,4 +16,4 @@ Just playing around with bareos-webui and suddenly I'm greeted with a 500 error 
 
 It seems its a known error for bareos-webui, the workaround is deleting the cookie related to bareos-webui. Thanks to this [google post][1].
 
- [1]: https://groups.google.com/forum/#!topic/bareos-users/f_WQLwQ-hu0
+ [1]: https://groups.google.com/g/bareos-users/c/f_WQLwQ-hu0
