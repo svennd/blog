@@ -48,6 +48,6 @@ I added darcs to the tools path, you could also add both c:/tools and c:/program
 
 Woohoo another thing I'm great at!
 
- [1]: http://darcs.net/binaries/windows/darcs-2.8.1-win1.msi
+ [1]: http://darcs.net/binaries/windows/
  [2]: https://the.earth.li/~sgtatham/putty/latest/x86/putty.zip
  [3]: http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
