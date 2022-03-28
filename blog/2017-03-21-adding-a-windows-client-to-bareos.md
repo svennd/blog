@@ -38,6 +38,6 @@ Next you get this screen, this can be copy pasted in :
 
 And that's it ! Upon next reboot the service runs and Bareos can backup from this client.
 
- [1]: http://download.bareos.org/bareos/release/latest/windows/
+ [1]: https://download.bareos.org/bareos/release/
  [2]: /img/2017/03/setup.png
  [3]: /img/2017/03/config_for_dir.png
