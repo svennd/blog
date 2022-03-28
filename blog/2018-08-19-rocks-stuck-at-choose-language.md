@@ -41,7 +41,7 @@ line 773, in getHostnames
     min,max = self.db.fetchone()
 TypeError: 'NoneType' object is not iterable</pre>
 
-While this should be a large XML file structure like. After allot of extensive google skills ([and this 2013 topic][2]) I found out that a simple MySQL update had dropped the root password out of the global configuration, this can be found :
+While this should be a large XML file structure like. After allot of extensive google skills (and this 2013 topic -now dead-) I found out that a simple MySQL update had dropped the root password out of the global configuration, this can be found :
 
 <pre>/opt/rocks/etc/my.cnf</pre>
 
@@ -69,4 +69,3 @@ You don't have to restart the MySQL or the service, just let the node reboot and
 Good luck
 
  [1]: http://www.rocksclusters.org
- [2]: https://lists.sdsc.edu/pipermail/npaci-rocks-discussion/2013-June/062910.html
