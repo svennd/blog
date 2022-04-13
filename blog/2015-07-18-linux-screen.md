@@ -18,7 +18,8 @@ _Screen_ is one of those hidden Linux gems, when working on a remote or unstable
 
 Using screen is as simple as typing <code class="EnlighterJSRAW" data-enlighter-language="null">screen</code> there are some options, those however, I commonly don't use, with one exception, the -S parameter, which gives you the option to enter a human readable name for the screen session. Definitely useful for long running jobs you are sure you are going to detach ! Another one is the -r option to reattach again (when your link was down, and you had to reconnect). In the default run-mode there is no log being made of the screen session and the _scrolling-back_ history buffer is rather limited, so when rsyncing for example it might be useful to log the output. This can be done using the -L flag, note that you can set the _scrolling-back_ history buffer (-h _int_) also, but this is limited anyway, so its better to log the screen. To end, some examples.
 
-<pre class="EnlighterJSRAW" data-enlighter-language="shell" data-enlighter-linenumbers="false"># simply start a new screen session
+```
+# simply start a new screen session
 screen
 
 # start a screen session with a name
@@ -41,6 +42,14 @@ screen -L
 
 # sometimes the screen "locks up" "freezes" you can try
 ctrl-a q
-# which is unblocking scroll</pre>
+# which is unblocking scroll
+```
 
-<img aria-describedby="caption-attachment-1068" loading="lazy" class="wp-image-1068 size-full" src="/img//2015/07/29732288-1.png" width="420" height="71" srcset="/img/2015/07/29732288-1.png 420w, /img/2015/07/29732288-1-300x51.png 300w, /img/2015/07/29732288-1-6x1.png 6w" sizes="(max-width: 420px) 100vw, 420px" />
+<img loading="lazy" src="/img/2015/07/29732288-1.png" width="420" height="71" />
+
+# scrolling
+One of the features I know exist but forget how to use is scrolling in the screen; To scroll use : 
+- ctrl-a
+- esc
+- up/down (to scroll)
+- q or esc
