@@ -14,7 +14,8 @@ tags:
 ---
 After a reboot, I got greeted with this error :
 
-<pre>root@server:~# zpool status
+```
+root@server:~# zpool status
   pool: rpool
  state: DEGRADED
 status: One or more devices could not be used because the label is missing or
@@ -32,17 +33,17 @@ config:
             2748060340541772838  UNAVAIL      0     0     0  was /dev/sdb2
             sdc2                 ONLINE       0     0     0
             sdd2                 ONLINE       0     0     0
-</pre>
+```
 
 I replaced the disk, and then forced a replace.
 
-<pre>zpool replace -f rpool 2748060340541772838 /dev/sdb</pre>
+```zpool replace -f rpool 2748060340541772838 /dev/sdb```
 
 zpool replace [-f] $poolname $old\_device $new\_device
 
 The status is now :
 
-<pre>root@server:~# zpool list
+```root@server:~# zpool list
 NAME    SIZE  ALLOC   FREE  EXPANDSZ   FRAG    CAP  DEDUP  HEALTH  ALTROOT
 rpool   928G  10.2G   918G     16.0E     3%     1%  1.00x  DEGRADED  -
 root@server:~# zpool status
@@ -66,6 +67,18 @@ config:
             sdc2                   ONLINE       0     0     0
             sdd2                   ONLINE       0     0     0
 
-errors: No known data errors</pre>
+errors: No known data errors
+```
+
+It might be required to offline the device first :
+```
+zpool offline rpool /dev/sda
+```
+
+To find what device is broken, one can use ledctl : 
+```
+ledctl locate = /dev/sda
+ledctl locate_off = /dev/sda
+```
 
 &nbsp;
