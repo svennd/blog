@@ -81,4 +81,6 @@ ledctl locate = /dev/sda
 ledctl locate_off = /dev/sda
 ```
 
-&nbsp;
+sources : 
+- [zfs offline](https://openzfs.github.io/openzfs-docs/man/8/zpool-offline.8.html)
+- [zfs replace](https://openzfs.github.io/openzfs-docs/man/8/zpool-replace.8.html)
