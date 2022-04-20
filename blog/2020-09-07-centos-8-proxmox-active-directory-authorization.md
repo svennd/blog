@@ -4,7 +4,7 @@ author: svennd
 
 date: 2020-09-07T14:49:24+00:00
 url: /centos-8-proxmox-active-directory-authorization/
-thumbnail: /img/2020/02/nightsky.png
+thumbnail: /img/2020/02/nightsky.jpg
 categories:
   - Linux
   - SysAdmin

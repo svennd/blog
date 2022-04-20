@@ -4,7 +4,7 @@ author: svennd
 
 date: 2020-02-12T15:29:47+00:00
 url: /proxmox-upgrading-from-5-4-6-1-7/
-thumbnail: /img/2020/02/nightsky.png
+thumbnail: /img/2020/02/nightsky.jpg
 categories:
   - Linux
   - proxmox

@@ -4,7 +4,7 @@ author: svennd
 
 date: 2016-02-04T20:50:28+00:00
 url: /keepalive-on-or-off-apache-tuning/
-thumbnail: /img/2020/05/aleks-marinkovic-HKNtySNAULI-unsplash-scaled.jpg
+thumbnail: /img/2020/05/aleks-marinkovic-computer-ducks.jpg
 categories:
   - Linux
   - SysAdmin

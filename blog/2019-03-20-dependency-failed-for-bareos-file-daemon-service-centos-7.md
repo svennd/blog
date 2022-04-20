@@ -4,7 +4,7 @@ author: svennd
 
 date: 2019-03-20T15:28:36+00:00
 url: /dependency-failed-for-bareos-file-daemon-service-centos-7/
-thumbnail: /img/2020/05/aleks-marinkovic-HKNtySNAULI-unsplash-scaled.jpg
+thumbnail: /img/2020/05/aleks-marinkovic-computer-ducks.jpg
 categories:
   - SysAdmin
 tags:

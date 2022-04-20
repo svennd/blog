@@ -4,7 +4,7 @@ author: svennd
 
 date: 2018-08-13T12:26:05+00:00
 url: /snmp-forwarding-on-rocks-cluster/
-thumbnail: /img/2020/05/jonny-caspari-kplYftwYOCY-unsplash-scaled.jpg
+thumbnail: /img/2020/05/jonny-caspari_the_way.jpg
 categories:
   - Linux
   - SysAdmin

@@ -16,7 +16,7 @@ tags:
 ---
 Slowly [ZFS on Linux][1] is becoming the mainstream file system, however its more then just a file system, its a (software) raid,  it allows for snapshots, compression, deduplication, ... its pretty cool, and I'm in love with it. One of the most important features for me is snapshots, those are dirty cheap in ZFS, so cheap everyone should use them. Cause you never know when you will issue a <code class="EnlighterJSRAW" data-enlighter-language="null">rm -rf /*</code> or a cryptovirus hits you. Fixing those, with ZFS snapshots is allot easier and faster. However in order to be able to use them, you need to make them, and honestly, everyone forgets about making snapshots, as a solution ZFS snapshots is an excellent target for automation. One could build a snapshot system from scratch, but since ZFS is so popular, there must be some systems out there. There are some, [zfs-auto-snapshot][2] ([excellent tutorial][3]) is the most common, as its been around from close to the start of the ZOL (ZFS On Linux) project. While it works great, the configuration is limited and we want to able to configure depending on the (sub)volume. I found [Sanoid][4], and the rest, as they say, is history. Sanoid seems [commercial linked][5], but its GNU open-source. Setting it up is easy, but the documentation is a bit lacking right now. So here goes, how I set it up. (while not specific for proxmox, I use it on all new -ZFS- proxmox installations)
 
-![Our snapshot bro.](/img/2016/12/687474703a2f2f7777772e6f70656e6f69642e6e65742f77702d636f6e74656e742f7468656d65732f6f70656e6f69642f696d616765732f73616e6f69645f6c6f676f2e706e67-300x65.png)
+![Our snapshot bro.](/img/2016/12/sanoid.png)
 
 **Dependency  
 ** Proxmox is Debian based, so apt-get :

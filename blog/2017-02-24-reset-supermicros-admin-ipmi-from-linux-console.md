@@ -4,7 +4,7 @@ author: svennd
 
 date: 2017-02-24T10:07:41+00:00
 url: /reset-supermicros-admin-ipmi-from-linux-console/
-thumbnail: /img/2020/05/jonny-caspari-kplYftwYOCY-unsplash-scaled.jpg
+thumbnail: /img/2020/05/jonny-caspari_the_way.jpg
 categories:
   - Linux
   - SysAdmin

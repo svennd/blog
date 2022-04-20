@@ -4,7 +4,7 @@ author: svennd
 
 date: 2018-08-06T08:19:28+00:00
 url: /proxmox-config-directory-files/
-thumbnail: /img/2020/02/nightsky.png
+thumbnail: /img/2020/02/nightsky.jpg
 categories:
   - proxmox
   - SysAdmin

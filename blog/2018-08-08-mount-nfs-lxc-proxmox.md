@@ -4,7 +4,7 @@ author: svennd
 
 date: 2018-08-08T20:12:33+00:00
 url: /mount-nfs-lxc-proxmox/
-thumbnail: /img/2020/02/nightsky.png
+thumbnail: /img/2020/02/nightsky.jpg
 categories:
   - Linux
   - proxmox

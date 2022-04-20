@@ -4,7 +4,7 @@ author: svennd
 
 date: 2019-11-21T10:20:49+00:00
 url: /disable-2fa-in-proxmox-6/
-thumbnail: /img/2020/02/nightsky.png
+thumbnail: /img/2020/02/nightsky.jpg
 categories:
   - Linux
   - proxmox

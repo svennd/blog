@@ -4,7 +4,7 @@ author: svennd
 
 date: 2017-01-20T11:29:35+00:00
 url: /proxmox-kvm-kernel-module-no-such-file-or-directory/
-thumbnail: /img/2020/02/nightsky.png
+thumbnail: /img/2020/02/nightsky.jpg
 categories:
   - proxmox
   - SysAdmin

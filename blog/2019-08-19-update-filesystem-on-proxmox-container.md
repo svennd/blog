@@ -4,7 +4,7 @@ author: svennd
 
 date: 2019-08-19T12:08:47+00:00
 url: /update-filesystem-on-proxmox-container/
-thumbnail: /img/2020/02/nightsky.png
+thumbnail: /img/2020/02/nightsky.jpg
 categories:
   - Linux
   - SysAdmin

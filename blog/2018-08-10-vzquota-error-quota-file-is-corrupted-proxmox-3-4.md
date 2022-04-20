@@ -4,7 +4,7 @@ author: svennd
 
 date: 2018-08-10T07:50:30+00:00
 url: /vzquota-error-quota-file-is-corrupted-proxmox-3-4/
-thumbnail: /img/2020/02/nightsky.png
+thumbnail: /img/2020/02/nightsky.jpg
 categories:
   - Linux
   - SysAdmin

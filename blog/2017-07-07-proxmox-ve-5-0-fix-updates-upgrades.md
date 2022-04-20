@@ -4,7 +4,7 @@ author: svennd
 
 date: 2017-07-07T13:01:07+00:00
 url: /proxmox-ve-5-0-fix-updates-upgrades/
-thumbnail: /img/2020/02/nightsky.png
+thumbnail: /img/2020/02/nightsky.jpg
 categories:
   - Linux
   - proxmox

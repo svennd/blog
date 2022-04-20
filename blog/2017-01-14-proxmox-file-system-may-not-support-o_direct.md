@@ -4,7 +4,7 @@ author: svennd
 
 date: 2017-01-14T15:48:31+00:00
 url: /proxmox-file-system-may-not-support-o_direct/
-thumbnail: /img/2020/02/nightsky.png
+thumbnail: /img/2020/02/nightsky.jpg
 categories:
   - proxmox
   - SysAdmin

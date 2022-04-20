@@ -4,7 +4,7 @@ author: svennd
 
 date: 2016-04-14T14:54:11+00:00
 url: /removing-a-cluster-node-from-web-interface-proxmox-4/
-thumbnail: /img/2020/02/nightsky.png
+thumbnail: /img/2020/02/nightsky.jpg
 categories:
   - proxmox
   - SysAdmin

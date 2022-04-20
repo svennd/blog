@@ -4,7 +4,7 @@ author: svennd
 
 date: 2019-03-07T14:08:48+00:00
 url: /install-cellprofiler-on-centos-7-6-using-conda/
-thumbnail: /img/2020/05/jonny-caspari-kplYftwYOCY-unsplash-scaled.jpg
+thumbnail: /img/2020/05/jonny-caspari_the_way.jpg
 categories:
   - Linux
 tags:

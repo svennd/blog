@@ -4,7 +4,7 @@ author: svennd
 
 date: 2017-02-08T12:48:09+00:00
 url: /proxmox-upgrade-issues/
-thumbnail: /img/2020/02/nightsky.png
+thumbnail: /img/2020/02/nightsky.jpg
 categories:
   - proxmox
   - SysAdmin

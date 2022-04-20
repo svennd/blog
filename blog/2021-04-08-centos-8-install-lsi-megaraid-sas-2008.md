@@ -4,7 +4,7 @@ author: svennd
 
 date: 2021-04-08T13:02:32+00:00
 url: /centos-8-install-lsi-megaraid-sas-2008/
-thumbnail: /img/2020/05/aleks-marinkovic-HKNtySNAULI-unsplash-scaled.jpg
+thumbnail: /img/2020/05/aleks-marinkovic-computer-ducks.jpg
 categories:
   - Linux
   - SysAdmin

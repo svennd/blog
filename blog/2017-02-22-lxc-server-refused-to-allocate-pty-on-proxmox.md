@@ -4,7 +4,7 @@ author: svennd
 
 date: 2017-02-22T10:06:20+00:00
 url: /lxc-server-refused-to-allocate-pty-on-proxmox/
-thumbnail: /img/2020/02/nightsky.png
+thumbnail: /img/2020/02/nightsky.jpg
 categories:
   - Linux
   - proxmox

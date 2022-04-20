@@ -4,7 +4,7 @@ author: svennd
 
 date: 2016-01-28T11:27:19+00:00
 url: /nfs-in-a-centos-6-lxc-proxmox-4-1/
-thumbnail: /img/2020/02/nightsky.png
+thumbnail: /img/2020/02/nightsky.jpg
 categories:
   - Linux
   - proxmox

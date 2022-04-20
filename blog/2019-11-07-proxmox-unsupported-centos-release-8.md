@@ -4,7 +4,7 @@ author: svennd
 
 date: 2019-11-07T12:28:38+00:00
 url: /proxmox-unsupported-centos-release-8/
-thumbnail: /img/2020/02/nightsky.png
+thumbnail: /img/2020/02/nightsky.jpg
 categories:
   - proxmox
   - SysAdmin
