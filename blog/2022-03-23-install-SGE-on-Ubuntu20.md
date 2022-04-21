@@ -75,7 +75,7 @@ error: unable to send message to qmaster using port 6444 on host "master": got s
 Fix by removing from `/etc/hosts` to :
 
 ```
-127.0.1.1 cmn-val1  # <-- remove
+127.0.1.1 server  # <-- remove
 ```
 
 After this, I pretty much could follow [the guide](https://peteris.rocks/blog/sun-grid-engine-installation-on-ubuntu-server/).
@@ -84,29 +84,29 @@ After this, I pretty much could follow [the guide](https://peteris.rocks/blog/su
 ## AD users connected
 After installing the cluster and making it a submit host; I connected via samba to our AD environment. After logging in to one of the accounts over AD I could submit jobs, but they would directly fail. Upon closer inspection this came out :
 ```
-sdhert@cmn-val1:~$ qstat
+svennd@server:~$ qstat
 job-ID  prior   name       user         state submit/start at     queue                          slots ja-task-ID
 -----------------------------------------------------------------------------------------------------------------
-     37 0.50000 STDIN      sdhert       Eqw   03/24/2022 16:30:21                                    1        
-     42 0.50000 hostname   sdhert       Eqw   03/28/2022 09:25:26                                    1        
+     37 0.50000 STDIN      svennd       Eqw   03/24/2022 16:30:21                                    1        
+     42 0.50000 hostname   svennd       Eqw   03/28/2022 09:25:26                                    1        
 
-sdhert@cmn-val1:~$ qstat -explain c -j 42
+svennd@server:~$ qstat -explain c -j 42
 ==============================================================
 job_number:                 42
 exec_file:                  job_scripts/42
 submission_time:            Mon Mar 28 09:25:26 2022
-owner:                      sdhert
+owner:                      svennd
 uid:                        100172585
 group:                      domain
 gid:                        100000514
-sge_o_home:                 /home/AD/sdhert
-sge_o_log_name:             sdhert
+sge_o_home:                 /home/AD/svennd
+sge_o_log_name:             svennd
 sge_o_path:                 /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 sge_o_shell:                /bin/bash
-sge_o_workdir:              /home/AD/sdhert
-sge_o_host:                 cmn-val1
+sge_o_workdir:              /home/AD/svennd
+sge_o_host:                 server
 account:                    sge
-mail_list:                  sdhert@cmn-val1.uantwerpen.be
+mail_list:                  svennd@server.domain.be
 notify:                     FALSE
 job_name:                   hostname
 jobshare:                   0
@@ -114,7 +114,7 @@ env_list:                   TERM=NONE
 script_file:                hostname
 binding:                    NONE
 job_type:                   binary
-error reason          1:      can't get password entry for user "sdhert". Either user does not exist or error with NIS/LDAP etc.
+error reason          1:      can't get password entry for user "svennd". Either user does not exist or error with NIS/LDAP etc.
 scheduling info:            Job is in error state
 ```
 

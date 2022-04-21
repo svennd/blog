@@ -1,35 +1,40 @@
 ---
 author: "Svenn D'Hert"
-title: "ACL on Truenas"
-description: ""
-date: 2022-03-28
-thumbnail: /img/2022/03/ubuntu_sge.jpg
+title: "ACL on TrueNAS"
+description: "ACL on TrueNAS"
+date: 2022-04-21
+thumbnail: /img/2022/04/sarah-kilian-ACL-truenas.jpg
 ---
 
+ACL is not something I'm really familiar with, so these are just raw notes on how I deal with it in TrueNAS. Some more context might follow :laughing:
+
+check permissions with
+```
+getfacl
+```
 
 
-https://www.reddit.com/r/BSD/comments/2bvw60/eli5_setfacl_permissions/
-
-https://www.slideshare.net/andy_leonard/when-acls-attack
-
+set them (chmod/chown) :  (the order seems to be important)
 ```
 setfacl -m group@:rwxpdDaARWcs:fd:allow support
 setfacl -m group@:dD::deny support
 ```
 
-syntax : 
+syntax :
 ```
 setfacl -m level:permissions:inhertance:allow|deny dir/file
 ```
-level : 
+
+levels :
 - owner@ : owner of the dir/file
 - group@ : group that owns the dir/file
-- everyone@
-- owner
-- group
-- everyone
+- everyone@ : others ?
+- owner : a specific user other than the owner of the file/dir
+- group : a specific group other than the owner of the file/dir
+- everyone : ?
 
-permissions : 
+Permission letters :
+```
          r      read_data
          w      write_data
          x      execute
@@ -44,4 +49,11 @@ permissions :
          C      write_acl
          o      write_owner
          S      synchronize
+```
 
+sources :        
+- https://www.reddit.com/r/BSD/comments/2bvw60/eli5_setfacl_permissions/
+- https://www.slideshare.net/andy_leonard/when-acls-attack
+
+
+Image by [rojekilian](https://unsplash.com/@rojekilian)
