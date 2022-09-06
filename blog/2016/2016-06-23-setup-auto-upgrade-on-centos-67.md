@@ -12,7 +12,7 @@ categories:
 ---
 &nbsp;
 
-<pre>Using Centos Stream 8 ? This won't work anymore, it changed to [dnf-automatic](https://www.svennd.be/auto-upgrade-on-centos-stream-8-using-dnf-automatic/) !</pre>
+Using Centos Stream 8 ? This won't work anymore, it changed to [dnf-automatic](https://www.svennd.be/auto-upgrade-on-centos-stream-8-using-dnf-automatic/) !
 
 This is one of those things I do when I enter a new server/virtual machine. While this could cause issue's down the road, (updates are always a bit of a guess) Most simple advice to give to problems in Linux is, "did you update ?". In Centos its pretty easy to set this up automatic updates, so no server should be without this essential part of configuration. Another big point is security, while this isn't per definition more secure, its better to have a bad update then to have a few 100 MB of not done updates cause they "might break something".
 
