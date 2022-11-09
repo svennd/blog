@@ -2,7 +2,7 @@
 author: "Svenn D'Hert"
 title: "rstudio server hack the login"
 description: "use Nginx to hack your own rstudio instance"
-date: 2022-06-13
+date: 2022-11-09
 thumbnail: /img/2022/03/hugo_fp.jpg
 url: /rstudio-server-hack/
 ---
