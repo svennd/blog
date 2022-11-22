@@ -3,7 +3,7 @@ author: "Svenn D'Hert"
 title: "Truenas on automake homedir + file creation"
 description: ""
 date: 2022-11-09
-thumbnail: /img/2022/03/hugo_fp.jpg
+thumbnail: /img/2022/11/single-earth.jpg
 url: /truenas_auto_file_home/
 ---
 
@@ -12,3 +12,6 @@ Creating an info file while using the pam_mkhomedir can be done dropping a file 
 
 info : 
 - https://www.truenas.com/docs/core/coretutorials/sharing/smb/homeshare/
+
+
+Image by [singleearth](https://unsplash.com/@singleearth)

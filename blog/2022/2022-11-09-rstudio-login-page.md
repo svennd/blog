@@ -3,7 +3,7 @@ author: "Svenn D'Hert"
 title: "rstudio server hack the login"
 description: "use Nginx to hack your own rstudio instance"
 date: 2022-11-09
-thumbnail: /img/2022/03/hugo_fp.jpg
+thumbnail: /img/2022/05/clay-banks.jpg
 url: /rstudio-server-hack/
 ---
 One of the features lacking from the open-source version of rstudio-server  is the possibilty to edit the html pages (eg. to make a custom login page). 
@@ -27,3 +27,6 @@ Using this method one could easily inject javascript or replace the entire page 
 info : 
 - https://support--rstudio-com.netlify.app/products/rstudio/#rstudio-server
 - https://stackoverflow.com/questions/19700871/how-to-inject-custom-content-via-nginx
+
+
+img by [claybanks](https://unsplash.com/@claybanks)
