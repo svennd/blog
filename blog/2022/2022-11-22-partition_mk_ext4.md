@@ -6,11 +6,10 @@ date: 2022-11-22
 thumbnail: /img/2022/11/luigi-boccardo.jpg
 url: /partition_and_format_disk_ext4/
 ---
-A bit silly I still have to google this, but here goes. How to partition and format a disk. In this case I'm formatting a SSD to be used as `/tmp` in a server.
+A bit silly I still have to google this, but here goes. How to partition and format a new disk. In this case I'm formatting a SSD to be used as `/tmp` in a server.
 
 
-You can find the added disk generally in the logs 
-
+You can find the added disk, generally in the logs (syslog or messages).
 ```
 # cat /var/log/syslog
 Nov 22 15:14:05 server kernel: [13752487.699683] sd 0:0:9:0: [sdi] 3907029168 512-byte logical blocks: (2.00 TB/1.82 TiB)
@@ -45,7 +44,7 @@ format the disk in ext4 (for example)
 ```
 # mkfs.ext4 /dev/sdi1 
 mke2fs 1.45.5 (07-Jan-2020)
-Discarding device blocks: done                            
+Discarding device blocks: done
 Creating filesystem with 488378390 4k blocks and 122101760 inodes
 Filesystem UUID: 6ed1591b-7e79-4b3f-934a-0fa26044212a
 Superblock backups stored on blocks: 
@@ -53,10 +52,10 @@ Superblock backups stored on blocks:
         4096000, 7962624, 11239424, 20480000, 23887872, 71663616, 78675968, 
         102400000, 214990848
 
-Allocating group tables: done                            
-Writing inode tables: done                            
+Allocating group tables: done
+Writing inode tables: done
 Creating journal (262144 blocks): done
-Writing superblocks and filesystem accounting information: don
+Writing superblocks and filesystem accounting information: done
 ```
 
 Then for mounting as `/tmp` (in this case), we can use `/dev/sdi1` or much safer is using the UUID from the device. Since the UUID never changes. This can be done using blkid.
