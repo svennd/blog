@@ -6,8 +6,7 @@ date: 2022-11-09
 thumbnail: /img/2022/11/single-earth.jpg
 url: /truenas_auto_file_home/
 ---
-
-Creating an info file while using the pam_mkhomedir can be done dropping a file in /etc/skel (or when skel is set different in the pam config files in the alternative location)
+To create an info file (for example) while using the `pam_mkhomedir` module, you can achieve this by placing a file in the `/etc/skel` directory. Alternatively, if the skel directory is set to a different location in the PAM configuration files, you can drop the file there.
 
 
 info : 
