@@ -7,6 +7,10 @@ thumbnail: /img/2022/05/clay-banks.jpg
 url: /firewalld-intro/
 ---
 
+Mastering firewall management is essential for maintaining the security and integrity of computer systems. In the realm of Linux, firewalld has emerged as a powerful and flexible firewall solution, providing administrators with fine-grained control over network traffic. Understanding the basics of firewalld and its command-line interface is crucial for effectively configuring and managing firewall rules.
+
+Before we dive into the specific commands, it is worth noting that firewalld comes pre-installed on many modern Linux distributions, including Fedora, CentOS, and Red Hat Enterprise Linux. However, it is always a good practice to verify its presence on your system and ensure it is up-to-date before proceeding.
+
 
 Get all zones
 ```
@@ -47,7 +51,7 @@ add specific port
 firewall-cmd --permanent --zone=external --add-port=60001/udp
 ```
 
-# create custom zones
+create custom zones
 ```
 firewall-cmd --permanent --new-zone=my_personal_zone
 firewall-cmd --permanent --zone=my_personal_zone --add-interface=eth0

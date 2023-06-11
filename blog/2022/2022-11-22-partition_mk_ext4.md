@@ -6,8 +6,7 @@ date: 2022-11-22
 thumbnail: /img/2022/11/luigi-boccardo.jpg
 url: /partition_and_format_disk_ext4/
 ---
-A bit silly I still have to google this, but here goes. How to partition and format a new disk. In this case I'm formatting a SSD to be used as `/tmp` in a server.
-
+It's a bit embarrassing that I still need to search for this, but here's a guide on partitioning and formatting a new disk. Specifically, I'll explain the process of formatting an SSD to serve as the `/tmp` directory on a server.
 
 You can find the added disk, generally in the logs (syslog or messages).
 ```
