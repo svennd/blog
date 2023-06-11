@@ -1,0 +1,40 @@
+name: CI
+run-name: SvennD Blog Update
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment: deploy
+    steps:
+      - name: Checkout the current branch
+        uses: actions/checkout@v3
+
+      - name: Initialize the ssh-agent
+        uses: webfactory/ssh-agent@v0.4.1
+        with:
+          ssh-private-key: | 
+              ${{ secrets.SSH_PRIVATE_KEY }}
+              ${{ secrets.HUGO_CODE_KEY }}
+
+      - name: Clone repository
+        run: git clone git@github.com:svennd/svenn_clean.git blog
+      
+      - name: Install Hugo
+        run: sudo snap install hugo
+
+      - name: Build the hugo blog
+        run: npm i && HUGO_ENVIRONMENT=production hugo --gc
+
+      - name: Scan the host key
+        run: mkdir -p ~/.ssh/ && ssh-keyscan -H $DEPLOY_SERVER >> ~/.ssh/known_hosts
+        env:
+          DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
+
+      - name: Deploy the website
+        run: >-
+          rsync -avx --delete --exclude '.ssh' public/ $DEPLOY_USERNAME@$DEPLOY_SERVER:~
+        env:
+          DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
+          DEPLOY_USERNAME: ${{ secrets.DEPLOY_USERNAME }}
