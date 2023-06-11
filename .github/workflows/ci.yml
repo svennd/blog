@@ -9,10 +9,10 @@ jobs:
     environment: deploy
     steps:
       - name: Checkout the current branch
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3.5.3
 
       - name: Initialize the ssh-agent
-        uses: webfactory/ssh-agent
+        uses: webfactory/ssh-agent@v0.8.0
         with:
           ssh-private-key: | 
               ${{ secrets.SSH_PRIVATE_KEY }}
