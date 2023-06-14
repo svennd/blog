@@ -73,7 +73,10 @@ Don't forget to change the defaults settings to something you prefer :
 zfs set acltype=posixacl panda
 zfs set compression=lz4 panda
 zfs set atime=off panda
-zfs set relatime=off panda</pre>
+zfs set relatime=off panda
+zfs set recordsize=1M panda</pre>
+
+note: recordsize depends on data you expect to store.
 
 See the [basic tuning tips][2] for more info.
 
