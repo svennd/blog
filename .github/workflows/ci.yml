@@ -22,6 +22,7 @@ defaults:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: deploy
     env:
       HUGO_VERSION: 0.115.1
     
